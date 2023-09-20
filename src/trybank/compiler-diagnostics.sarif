@@ -4,14 +4,330 @@
   "runs": [
     {
       "tool": {
-        "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "4.2.0.0",
-        "fileVersion": "4.2.0-4.22220.5 (432d17a8)",
-        "semanticVersion": "4.2.0",
-        "language": "pt-BR"
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": ""
       },
       "results": [
-      ]
+        {
+          "ruleId": "CS1026",
+          "level": "error",
+          "message": ") expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 23,
+                  "endLine": 27,
+                  "endColumn": 24
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1002",
+          "level": "error",
+          "message": "; expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 45,
+                  "endLine": 27,
+                  "endColumn": 46
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1513",
+          "level": "error",
+          "message": "} expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 45,
+                  "endLine": 27,
+                  "endColumn": 46
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1026",
+          "level": "error",
+          "message": ") expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 18,
+                  "endLine": 28,
+                  "endColumn": 19
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1002",
+          "level": "error",
+          "message": "; expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 43,
+                  "endLine": 28,
+                  "endColumn": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1513",
+          "level": "error",
+          "message": "} expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 43,
+                  "endLine": 28,
+                  "endColumn": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1514",
+          "level": "error",
+          "message": "{ expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Verify.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 17,
+                  "endLine": 1,
+                  "endColumn": 17
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1585",
+          "level": "error",
+          "message": "Member modifier 'public' must precede the member type and name",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Verify.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1514",
+          "level": "error",
+          "message": "{ expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Verify.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 21,
+                  "endLine": 4,
+                  "endColumn": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1513",
+          "level": "error",
+          "message": "} expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Verify.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 21,
+                  "endLine": 4,
+                  "endColumn": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS8124",
+          "level": "error",
+          "message": "Tuple must contain at least two elements.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Verify.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 22,
+                  "endLine": 4,
+                  "endColumn": 23
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "CS1022",
+          "level": "error",
+          "message": "Type or namespace definition, or end-of-file expected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/pedro/Computacao/Trybe/Projetos/csharp-028-csharp-projeto-trybank/src/trybank/Verify.cs",
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 1,
+                  "endLine": 5,
+                  "endColumn": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rules": {
+        "CS1002": {
+          "id": "CS1002",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1002)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS1022": {
+          "id": "CS1022",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1022)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS1026": {
+          "id": "CS1026",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1026)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS1513": {
+          "id": "CS1513",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1513)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS1514": {
+          "id": "CS1514",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1514)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS1585": {
+          "id": "CS1585",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1585)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        },
+        "CS8124": {
+          "id": "CS8124",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8124)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
     }
   ]
 }

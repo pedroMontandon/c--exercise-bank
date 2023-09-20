@@ -1,4 +1,5 @@
 ﻿namespace trybank;
+using Verify;
 
 public class Trybank
 {
@@ -23,7 +24,9 @@ public class Trybank
     // 1. Construa a funcionalidade de cadastrar novas contas
     public void RegisterAccount(int number, int agency, int pass)
     {
-        throw new NotImplementedException();
+        VerifyAccount([number, agency, pass]);
+        Bank.add([number, agency, pass, 0]);
+        registeredAccounts++;
     }
 
     // 2. Construa a funcionalidade de fazer Login
