@@ -1,5 +1,4 @@
 ﻿namespace trybank;
-using Verify;
 
 public class Trybank
 {
@@ -24,8 +23,15 @@ public class Trybank
     // 1. Construa a funcionalidade de cadastrar novas contas
     public void RegisterAccount(int number, int agency, int pass)
     {
-        VerifyAccount([number, agency, pass]);
-        Bank.add([number, agency, pass, 0]);
+        for (int i = 0; i < registeredAccounts; i++) {
+            if (Bank[i, 0] == number && Bank[i, 1] == agency) {
+                throw new ArgumentException("A conta já está sendo usada!");
+            }
+            }
+        Bank[registeredAccounts, 0] = number;
+        Bank[registeredAccounts, 1] = agency;
+        Bank[registeredAccounts, 2] = pass;
+        Bank[registeredAccounts, 3] = 0;
         registeredAccounts++;
     }
 
